@@ -1,0 +1,250 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3201315018" file="D:\fl\和声理论介绍\软件\HarmonyGen.prj" location="D:\fl\和声理论介绍\软件" name="HarmonyGen" preferred-package-location="D:\fl\和声理论介绍\软件\HarmonyGen\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>HarmonyGen</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.1</param.version>
+    <param.authnamewatermark>Lin Longyue</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\HarmonyGen\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\HarmonyGen\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\HarmonyGen\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\HarmonyGen\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\HarmonyGen</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\HarmonyGen.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\chord\#C.wav</file>
+      <file>${PROJECT_ROOT}\chord\#C7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Cadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Cdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Cm.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Cm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Cm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#CMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#F.wav</file>
+      <file>${PROJECT_ROOT}\chord\#F7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Fadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Fdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Fm.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Fm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Fm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#FMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#G.wav</file>
+      <file>${PROJECT_ROOT}\chord\#G7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Gadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Gdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Gm.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Gm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\#Gm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\#GMaj77.wav</file>
+      <file>${PROJECT_ROOT}\chord\A.wav</file>
+      <file>${PROJECT_ROOT}\chord\A7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Aadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\Adim.wav</file>
+      <file>${PROJECT_ROOT}\chord\Am.wav</file>
+      <file>${PROJECT_ROOT}\chord\Am7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\Am7.wav</file>
+      <file>${PROJECT_ROOT}\chord\AMaj77.wav</file>
+      <file>${PROJECT_ROOT}\chord\B.wav</file>
+      <file>${PROJECT_ROOT}\chord\B7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Badd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\bB.wav</file>
+      <file>${PROJECT_ROOT}\chord\bB7.wav</file>
+      <file>${PROJECT_ROOT}\chord\bBadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\bBdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\bBm.wav</file>
+      <file>${PROJECT_ROOT}\chord\bBm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\bBm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\bBMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Bdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\bE.wav</file>
+      <file>${PROJECT_ROOT}\chord\bE7.wav</file>
+      <file>${PROJECT_ROOT}\chord\bEadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\bEdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\bEm.wav</file>
+      <file>${PROJECT_ROOT}\chord\bEm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\bEm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\bEMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Bm.wav</file>
+      <file>${PROJECT_ROOT}\chord\Bm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\Bm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\BMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\C.wav</file>
+      <file>${PROJECT_ROOT}\chord\C7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Cadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\Cdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\Cm.wav</file>
+      <file>${PROJECT_ROOT}\chord\Cm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\Cm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\CMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\D.wav</file>
+      <file>${PROJECT_ROOT}\chord\D7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Dadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\Ddim.wav</file>
+      <file>${PROJECT_ROOT}\chord\Dm.wav</file>
+      <file>${PROJECT_ROOT}\chord\Dm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\Dm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\DMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\E.wav</file>
+      <file>${PROJECT_ROOT}\chord\E7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Eadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\Edim.wav</file>
+      <file>${PROJECT_ROOT}\chord\Em.wav</file>
+      <file>${PROJECT_ROOT}\chord\Em7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\Em7.wav</file>
+      <file>${PROJECT_ROOT}\chord\EMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\F.wav</file>
+      <file>${PROJECT_ROOT}\chord\F7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Fadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\Fdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\Fm.wav</file>
+      <file>${PROJECT_ROOT}\chord\Fm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\Fm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\FMaj7.wav</file>
+      <file>${PROJECT_ROOT}\chord\G.wav</file>
+      <file>${PROJECT_ROOT}\chord\G7.wav</file>
+      <file>${PROJECT_ROOT}\chord\Gadd9.wav</file>
+      <file>${PROJECT_ROOT}\chord\Gdim.wav</file>
+      <file>${PROJECT_ROOT}\chord\Gm.wav</file>
+      <file>${PROJECT_ROOT}\chord\Gm7-5.wav</file>
+      <file>${PROJECT_ROOT}\chord\Gm7.wav</file>
+      <file>${PROJECT_ROOT}\chord\GMaj7.wav</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}\HarmonyGenHelp.html</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\generateMusicFromName.m</file>
+      <file>${PROJECT_ROOT}\getChordName.m</file>
+      <file>${PROJECT_ROOT}\getProgression.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\HarmonyGen\for_testing" name="readme.txt" optional="true">D:\fl\和声理论介绍\软件\HarmonyGen\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\HarmonyGen\for_testing" name="HarmonyGen.exe" optional="false">D:\fl\和声理论介绍\软件\HarmonyGen\for_testing\HarmonyGen.exe</file>
+      <file location="${PROJECT_ROOT}\HarmonyGen\for_testing" name="splash.png" optional="false">D:\fl\和声理论介绍\软件\HarmonyGen\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
